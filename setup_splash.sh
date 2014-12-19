@@ -1,5 +1,4 @@
 #!/bin/bash
 
 ####
-sudo mkdir -p ~/additional/splashscreen
-sudo cp splashscreen.sh ~/additional/splashscreen/
+git clone git@github.com:sur0x/retropiesplashscreen.git /home/pi/additional/splashscreen
