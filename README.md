@@ -13,12 +13,12 @@ Usage
 ====================
 
 Setup  
-*git pull https://github.com/sur0x/retropiesplashscreen.git*  
+*git clone https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./setup_splash.sh*
 
 
 Script  
-*git pull https://github.com/sur0x/retropiesplashscreen.git*  
+*git clone https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./splashscreen.sh*
 
 Setup Options
