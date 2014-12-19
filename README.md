@@ -12,12 +12,13 @@ RetroPie SD Image 2.3 do not try use it with older versions paths may be differe
 Usage
 ====================
 
-* Setup
-*git pull https://github.com/sur0x/retropiesplashscreen.git*
+Setup  
+*git pull https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./setup_splash.sh*
 
-* Script
-*git pull https://github.com/sur0x/retropiesplashscreen.git*
+
+Script  
+*git pull https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./splashscreen.sh*
 
 Setup Options
