@@ -13,12 +13,12 @@ Usage
 ====================
 
 Setup  
-*git pull https://github.com/sur0x/retropiesplashscreen.git*  
+*git clone https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./setup_splash.sh*
 
 
 Script  
-*git pull https://github.com/sur0x/retropiesplashscreen.git*  
+*git clone https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./splashscreen.sh*
 
 Setup Options
@@ -44,4 +44,10 @@ I have added three initial custom splashs that I found on Retropie forums:
 http://blog.petrockblock.com/forums/topic/piulator-splash/  
 http://blog.petrockblock.com/forums/topic/snes-games-splashscreen/  
 http://blog.petrockblock.com/forums/topic/retropie-snes-controller/  
+
+Buy me a Coffee
+====================
+If you are generous please buy me a coffee:
+
+http://bit.ly/1v95HZm
 
