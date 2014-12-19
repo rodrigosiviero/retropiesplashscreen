@@ -12,6 +12,9 @@ Boot_install () {
 Update () {
    echo "Updating images and script"
    git pull --rebase https://github.com/sur0x/retropiesplashscreen.git 
+###Copying custom splashscreens to retropie folder
+   cp -r splashscreens/ /home/pi/RetroPie-Setup/supplementary/
+   
 }
 
 ####
