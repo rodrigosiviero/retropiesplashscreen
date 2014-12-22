@@ -1,5 +1,8 @@
 #!/bin/bash
 
+##Check for git
+git --version
+OUT=$?
 
 Boot_install () {
    echo "Copying script to init.d"
@@ -10,11 +13,22 @@ Boot_install () {
 }
 
 Update () {
-   echo "Updating images and script"
-   git pull --rebase https://github.com/sur0x/retropiesplashscreen.git 
-###Copying custom splashscreens to retropie folder
-   cp -r splashscreens/ /home/pi/RetroPie-Setup/supplementary/
-   
+##Check for git
+git --version
+OUT=$?
+echo "Updating images and script"
+if [ $OUT == 0 ]; then
+   echo "Updating with git"
+   git pull --rebase https://github.com/sur0x/retropiesplashscreen.git
+elif [ $OUT == 127 ]; then
+   echo "Updating without git"
+   wget --no-check-certificate -qO tmp.zip https://github.com/sur0x/retropiesplashscreen/archive/master.zip
+   unzip -o tmp.zip
+   mv retropisplashscreen-master/* .
+   rm -rf  retropisplashscreen-master/
+   rm tmp.zip
+fi
+cp -r splashscreens/ /home/pi/RetroPie-Setup/supplementary/
 }
 
 ####
