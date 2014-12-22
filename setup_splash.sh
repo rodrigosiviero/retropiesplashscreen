@@ -21,7 +21,7 @@ if [ $OUT == 0 ]; then
 elif [ $OUT == 128 ]; then
    echo "Updating without git"
    wget --no-check-certificate -qO tmp.zip https://github.com/sur0x/retropiesplashscreen/archive/master.zip
-   unzip -o tmp.zip
+   unzip -qq -o tmp.zip
    rsync -a retropiesplashscreen-master/* .
    rm -rf  retropiesplashscreen-master/
    rm tmp.zip
