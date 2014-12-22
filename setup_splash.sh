@@ -10,7 +10,7 @@ Boot_install () {
 
 Update () {
 ##Check for git
-git --version &> /dev/null
+git status &> /dev/null
 OUT=$?
 echo "Updating images and script"
 if [ $OUT == 0 ]; then
