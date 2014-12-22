@@ -12,7 +12,7 @@ RetroPie SD Image 2.3 do not try use it with older versions paths may be differe
 Usage
 ====================
 
-Setup  
+Setup:
 *git clone https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./setup_splash.sh*
 
@@ -21,7 +21,7 @@ Or
 If you don't want to use GIT to update, just download the master.zip, it will be updated with wget if doesn't find a valid repo.
 
 
-Script  
+Script: (In case you don't want to install the script on init.d)  
 *git clone https://github.com/sur0x/retropiesplashscreen.git*  
 *sudo ./splashscreen.sh*
 
