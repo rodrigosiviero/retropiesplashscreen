@@ -15,7 +15,8 @@ OUT=$?
 echo "Updating images and script"
 if [ $OUT == 0 ]; then
    echo "Updating with git"
-   git pull --rebase https://github.com/sur0x/retropiesplashscreen.git
+   git fetch --all
+   git reset --hard origin/master
 elif [ $OUT == 128 ]; then
    echo "Updating without git"
    wget --no-check-certificate -qO tmp.zip https://github.com/sur0x/retropiesplashscreen/archive/master.zip
