@@ -1,9 +1,5 @@
 #!/bin/bash
 
-##Check for git
-git --version
-OUT=$?
-
 Boot_install () {
    echo "Copying script to init.d"
    cp splashscreen.sh /etc/init.d/
@@ -14,7 +10,7 @@ Boot_install () {
 
 Update () {
 ##Check for git
-git --version
+git --version > /dev/null
 OUT=$?
 echo "Updating images and script"
 if [ $OUT == 0 ]; then
@@ -24,8 +20,8 @@ elif [ $OUT == 127 ]; then
    echo "Updating without git"
    wget --no-check-certificate -qO tmp.zip https://github.com/sur0x/retropiesplashscreen/archive/master.zip
    unzip -o tmp.zip
-   mv retropisplashscreen-master/* .
-   rm -rf  retropisplashscreen-master/
+   rsync -a retropiesplashscreen-master/* .
+   rm -rf  retropiesplashscreen-master/
    rm tmp.zip
 fi
 cp -r splashscreens/ /home/pi/RetroPie-Setup/supplementary/
