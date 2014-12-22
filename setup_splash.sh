@@ -10,13 +10,13 @@ Boot_install () {
 
 Update () {
 ##Check for git
-git --version > /dev/null
+git --version &> /dev/null
 OUT=$?
 echo "Updating images and script"
 if [ $OUT == 0 ]; then
    echo "Updating with git"
    git pull --rebase https://github.com/sur0x/retropiesplashscreen.git
-elif [ $OUT == 127 ]; then
+elif [ $OUT == 128 ]; then
    echo "Updating without git"
    wget --no-check-certificate -qO tmp.zip https://github.com/sur0x/retropiesplashscreen/archive/master.zip
    unzip -o tmp.zip
