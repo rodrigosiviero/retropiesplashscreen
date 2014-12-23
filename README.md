@@ -55,3 +55,13 @@ If you are generous please buy me a coffee:
 
 http://bit.ly/1v95HZm
 
+
+Gallery
+====================
+
+Checkout the Gallery of splashscreens here:
+
+https://github.com/sur0x/retropiesplashscreen/wiki/SplashScreens
+
+
+
