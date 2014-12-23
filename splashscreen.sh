@@ -7,6 +7,7 @@
 # Short-Description: splashscreen randomizer 
 ### END INIT INFO
 #/bin/bash
+rm dirs.txt
 for path in /home/pi/RetroPie-Setup/supplementary/splashscreens/*; do
     [ -d "${path}" ] || continue # if not a directory, skip
     dirname="$(basename "${path}")"
