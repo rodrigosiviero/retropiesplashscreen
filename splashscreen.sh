@@ -8,7 +8,7 @@
 ### END INIT INFO
 #/bin/bash
 rm dirs.txt
-for path in /home/pi/RetroPie-Setup/supplementary/splashscreens/*; do
+for path in /opt/retropie/supplementary/splashscreen/; do
     [ -d "${path}" ] || continue # if not a directory, skip
     dirname="$(basename "${path}")"
     echo $dirname >> dirs.txt
@@ -16,4 +16,4 @@ done
 
 temp=$(shuf -n 1 dirs.txt)
 
-echo "$(ls /home/pi/RetroPie-Setup/supplementary/splashscreens/$temp/*)" > /etc/splashscreen.list 
+echo "$(ls /opt/retropie/supplementary/splashscreen/$temp/*)" > /etc/splashscreen.list 
