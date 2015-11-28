@@ -1,8 +1,8 @@
 #!/bin/bash
 
 Boot_install () {
-   echo "Copying script to init.d"
-   cp splashscreen.sh /etc/init.d/
+   #echo "Copying script to init.d"
+   #cp splashscreen.sh /etc/init.d/
    echo "Update-rc.d splashscreen.sh"
    update-rc.d splashscreen.sh defaults
    echo "Please do: sudo shutdown -r now"
