@@ -27,7 +27,7 @@ elif [ $OUT == 128 ]; then
    rm -rf  retropiesplashscreen-master/
    rm tmp.zip
 fi
-cp -r splashscreens/ /home/pi/RetroPie-Setup/supplementary/
+cp -r splashscreens/ /opt/retropie/supplementary/
 }
 
 ####
