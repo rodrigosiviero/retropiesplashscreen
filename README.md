@@ -6,11 +6,11 @@ Very very simple script to randomize splashscreens for your retropie.
 
 It will work *only* with:
 
-RetroPie SD Image *3.1+* do not try use it with older versions paths may be different.
+RetroPie SD Image *3.2.1+* do not try use it with older versions paths may be different.
 
 Tested with:
 
-RetroPie SD Image *3.1+*
+RetroPie SD Image *3.2.1+*
 
 Usage
 ====================
