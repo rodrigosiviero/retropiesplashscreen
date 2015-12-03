@@ -12,6 +12,12 @@ Tested with:
 
 RetroPie SD Image *3.2.1+*
 
+
+**** Legacy Version Available!! ****
+
+If you want the randomizer to work from 2.6 to 3.0beta version of retropie go to Releases page and download the legacy version, but notice, it will not be updated!!!
+
+
 Usage
 ====================
 
