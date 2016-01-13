@@ -56,7 +56,9 @@ I have added three initial custom splashs that I found on Retropie forums:
 
 http://blog.petrockblock.com/forums/topic/piulator-splash/  
 http://blog.petrockblock.com/forums/topic/snes-games-splashscreen/  
-http://blog.petrockblock.com/forums/topic/retropie-snes-controller/  
+http://blog.petrockblock.com/forums/topic/retropie-snes-controller/
+
+And many others from Retropie forums!
 
 Buy me a Coffee
 ====================
