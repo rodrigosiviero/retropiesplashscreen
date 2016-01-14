@@ -1,7 +1,7 @@
 RetroPie Splashscreen Randomizer
 ====================
 
-Very very simple script to randomize splashscreens for your retropie.
+Very very simple script to randomize splashscreens for your retropie, it has **over 70 splashscreens**
 
 
 It will work *only* with:
@@ -43,7 +43,7 @@ It will install the splashscreen.sh to your init.d and make it run @ boot time u
 
 * Option 2:
 
-Updates via git pull the folder to get script updates and more images that I'll be adding whenever I find a suitable img, you can send me splashscreens via github or rodrigosiviero at gmail.
+Updates via git pull the folder to get script updates and more images that I'll be adding overtime.
 
 * Option 3:
 
@@ -52,13 +52,9 @@ Quits.
 Contribution
 ====================
 Please contribute to the splashcreens, if you think a img is suitable fork and pull request or send me via email.
-I have added three initial custom splashs that I found on Retropie forums:
 
-http://blog.petrockblock.com/forums/topic/piulator-splash/  
-http://blog.petrockblock.com/forums/topic/snes-games-splashscreen/  
-http://blog.petrockblock.com/forums/topic/retropie-snes-controller/
+You can send me splashscreens via github(fork/pullrequest) or rodrigosiviero at gmail.
 
-And many others from Retropie forums!
 
 Buy me a Coffee
 ====================
