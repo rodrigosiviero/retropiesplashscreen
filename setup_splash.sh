@@ -30,9 +30,14 @@ fi
 sudo cp -r splashscreens/* /opt/retropie/supplementary/splashscreen/
 }
 
+CopySplashs () {
+#Copy Splashs over
+sudo cp -r splashscreens/* /opt/retropie/supplementary/splashscreen/
+}
+
 ####
 PS3='Select the Option: '
-options=("Boot Install" "Update" "Quit")
+options=("Boot Install" "Update" "Copy Splashs" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -44,6 +49,10 @@ do
             Update
 	    break
             ;;
+	"Copy Splashs")
+            CopySplashs
+            break
+	    ;;
         "Quit")
             break
             ;;
