@@ -47,6 +47,10 @@ Updates via git pull the folder to get script updates and more images that I'll 
 
 * Option 3:
 
+Copy new Splashscreens
+
+* Option 4:
+
 Quits.
 
 Contribution
