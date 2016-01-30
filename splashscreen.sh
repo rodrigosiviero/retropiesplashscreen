@@ -1,3 +1,4 @@
+!#/bin/sh
 ### BEGIN INIT INFO
 # Provides:          splashcreen
 # Required-Start:    
@@ -6,7 +7,6 @@
 # Default-Stop:      0 1 6
 # Short-Description: splashscreen randomizer 
 ### END INIT INFO
-#/bin/bash
 rm dirs.txt
 for path in /opt/retropie/supplementary/splashscreen/*; do
     [ -d "${path}" ] || continue # if not a directory, skip
