@@ -81,5 +81,22 @@ Checkout the Gallery of splashscreens here:
 
 https://github.com/sur0x/retropiesplashscreen/wiki/SplashScreens
 
+Videos
+====================
+
+Added a bunch of videos from community, here some examples:    
+
+<a href="https://www.youtube.com/watch?v=-FfhVOgGCi4">
+  <img src="https://j.gifs.com/jR89yz.gif" width="360" height="202">
+</a>
+<a href="https://www.youtube.com/watch?v=oXex6cLliYI">
+<img src="https://j.gifs.com/kR709r.gif" width="360" height="202">
+</a>
+<a href="https://www.youtube.com/watch?v=VgsgdT9Pdso">
+<img src="https://j.gifs.com/yPXvQz.gif" width="360" height="202">
+</a>
+<a href="https://www.youtube.com/watch?v=h33QfsFLlVA&feature=youtu.be">
+<img src="https://j.gifs.com/31wxB4.gif" width="360" height="202">
+</a>
 
 
