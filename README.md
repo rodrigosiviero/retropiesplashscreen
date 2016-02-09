@@ -54,6 +54,10 @@ Copy new Splashscreens
 
 * Option 4:
 
+Copy Videos
+
+* Option 5:
+
 Quits.
 
 Contribution
