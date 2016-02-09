@@ -35,9 +35,17 @@ CopySplashs () {
 sudo cp -r splashscreens/* /opt/retropie/supplementary/splashscreen/
 }
 
+CopyVideos () {
+echo "Copying Videos"
+wget --no-check-certificate https://bitbucket.org/sur0x/retropie-videos-splashscreens/get/master.tar.gz -P videos/
+tar xf videos/master.tar.gz -C videos/
+sudo cp -rf videos/sur0x*/videos/* /opt/retropie/supplementary/splashscreen/
+sudo rm -rf videos/
+}
+
 ####
 PS3='Select the Option: '
-options=("Boot Install" "Update" "Copy Splashs" "Quit")
+options=("Boot Install" "Update" "Copy Splashs" "Copy Video" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -53,6 +61,10 @@ do
             CopySplashs
             break
 	    ;;
+	"Copy Video")
+	    CopyVideos
+            break
+            ;;
         "Quit")
             break
             ;;
