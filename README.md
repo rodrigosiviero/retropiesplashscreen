@@ -10,7 +10,10 @@ RetroPie SD Image *3.2.1+* do not try use it with older versions paths may be di
 
 Tested with:
 
-RetroPie SD Image *3.2.1+*
+Retropie SD Image *3.2.1*
+Retropie SD Image *3.3*
+Retropie SD IMage *3.4*
+RetroPie SD Image *3.5*
 
 
 **** Legacy Version Available!! ****
