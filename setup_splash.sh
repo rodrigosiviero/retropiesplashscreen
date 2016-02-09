@@ -45,7 +45,7 @@ sudo rm -rf videos/
 
 ####
 PS3='Select the Option: '
-options=("Boot Install" "Update" "Copy Splashs" "Copy Video" "Quit")
+options=("Boot Install" "Update" "Copy Splashs" "Copy Videos" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -61,7 +61,7 @@ do
             CopySplashs
             break
 	    ;;
-	"Copy Video")
+	"Copy Videos")
 	    CopyVideos
             break
             ;;
