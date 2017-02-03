@@ -25,7 +25,7 @@ Usage
 ====================
 
 Setup:
-*git clone https://github.com/sur0x/retropiesplashscreen.git*  
+*git clone https://github.com/rodrigosiviero/retropiesplashscreen.git*  
 *sudo ./setup_splash.sh*
 
 Or
@@ -34,7 +34,7 @@ If you don't want to use GIT to update, just download the master.zip, it will be
 
 
 Script: (In case you don't want to install the script on init.d)  
-*git clone https://github.com/sur0x/retropiesplashscreen.git*  
+*git clone https://github.com/rodrigosiviero/retropiesplashscreen.git*  
 *sudo ./splashscreen.sh*
 
 Setup Options
