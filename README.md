@@ -79,7 +79,7 @@ Gallery
 
 Checkout the Gallery of splashscreens here:
 
-https://github.com/sur0x/retropiesplashscreen/wiki/SplashScreens
+https://github.com/rodrigosiviero/retropiesplashscreen/wiki/SplashScreens
 
 Videos
 ====================
