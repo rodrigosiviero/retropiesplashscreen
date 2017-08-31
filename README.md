@@ -1,6 +1,8 @@
 RetroPie Splashscreen Randomizer
 ====================
 
+I guess retropie already made this available to everyone!
+
 Very very simple script to randomize splashscreens for your retropie, it has **over 70 splashscreens**
 
 
